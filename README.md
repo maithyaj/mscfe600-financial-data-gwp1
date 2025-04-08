@@ -24,34 +24,34 @@ The project is divided into four key tasks:
 
 ## Repository Structure
 
-   mscfe600-financial-data-gwp1/
-   │
-   ├── data/                   # Contains raw financial data
-   ├── notebooks/              # Jupyter notebooks for analysis
-   │   ├── task1_data_quality.ipynb
-   │   ├── task2_yield_curve_modeling.ipynb
-   │   ├── task3_exploiting_correlation.ipynb
-   │   ├── task4_etf_analysis.ipynb
-   │
-   ├── reports/                # Generated reports (PDF/HTML)
-   │   ├── task1_report.pdf
-   │   ├── task2_report.pdf
-   │
-   ├── requirements.txt        # Python dependencies
-   ├── .gitignore              # Git ignore file
-   └── README.md               # Project overview and instructions
+mscfe600-financial-data-gwp1/
+│
+├── data/                   # Contains raw financial data
+├── notebooks/              # Jupyter notebooks for analysis
+│   ├── task1_data_quality.ipynb
+│   ├── task2_yield_curve_modeling.ipynb
+│   ├── task3_exploiting_correlation.ipynb
+│   ├── task4_etf_analysis.ipynb
+│
+├── reports/                # Generated reports (PDF/HTML)
+│   ├── task1_report.pdf
+│   ├── task2_report.pdf
+│
+├── requirements.txt        # Python dependencies
+├── .gitignore              # Git ignore file
+└── README.md               # Project overview and instructions
 
 ## Setup Instructions
 To ensure smooth collaboration on this project, please follow the steps below:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/mscfe600-financial-data-gwp1.git
+   git clone https://github.com/maithyaj/mscfe600-financial-data-gwp1.git
    cd mscfe600-financial-data-gwp1
 
 2. **Install Dependencies** 
    Install the required Python libraries using requirements.txt:
-   
+   ```python
    pip install -r requirements.txt
 
 3. **Run Jupyter Notebooks**
